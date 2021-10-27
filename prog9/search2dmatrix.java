@@ -18,7 +18,7 @@ class search2dmatrix {
         {
             if(target==matrix[r][c])
             {
-                System.out.println(true);
+                System.out.println(true);// means return true
             }
             if(target<matrix[r][c])
             {
@@ -30,6 +30,6 @@ class search2dmatrix {
                 c=matrix[0].length-1;
             }
         }
-        System.out.println(false);
+        System.out.println(false);// means return false;
     }
 }
